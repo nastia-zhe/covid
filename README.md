@@ -1,6 +1,6 @@
 # covid.py
 
-##Использование
+## Использование
 Скрипт формирует таблицу с количеством заболевших/умерших в странах, указанных в аргументах по состоянию на предыдущий день.
 
 Данные берутся из API сервиса https://covid19api.com/.
@@ -24,7 +24,7 @@ $ ./covid.py -c China 'Russian Federation'
 $ ./covid.py -c China 'Russian Federation' Singapore -f some_file.txt
 ```
 
-##Тестирование
+## Тестирование
 
 Репозиторий включает BDD тесты.
 
@@ -33,8 +33,8 @@ $ ./covid.py -c China 'Russian Federation' Singapore -f some_file.txt
 $ behave features
 ```
 
-##Установка
-###Для работы скрипта предварительно необходимо:
+## Установка
+### Для работы скрипта предварительно необходимо:
 1) Создать виртуальное окружение:
 ```
 $ python3 -m venv venv --prompt covid
@@ -48,7 +48,7 @@ $ source venv/bin/activate
 $ pip install -r requirements.txt
 ```
 
-###Для запуска тестов необходимо установить пакет behave:
+### Для запуска тестов необходимо установить пакет behave:
 ```
 $ pip install behave
 ```
