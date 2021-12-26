@@ -28,7 +28,7 @@ $ ./covid.py -c China 'Russian Federation' Singapore -f some_file.txt
 
 Репозиторий включает BDD тесты.
 
-Пример запуска тестов при помощи утилиты behave:
+Пример запуска тестов при помощи утилиты **behave**:
 ```
 $ behave features
 ```
